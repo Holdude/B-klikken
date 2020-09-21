@@ -9,3 +9,7 @@
     asdasdasdasdPHP
 </body>
 </html>
+
+<?php
+ header("Location: hovedside.php");
+?>
