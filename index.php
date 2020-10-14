@@ -51,11 +51,11 @@
             }else if($navn == $personListe[3]){
                 array_push($liste2, $info);
                 array_push($liste2, $dato);
-            }else if($navn == $personListe[6]){
+            }else if($navn == $personListe[5]){
                 array_push($liste3, $info);
                 array_push($liste3, $dato);
 
-            }else if($navn == $personListe[9]){
+            }else if($navn == $personListe[7]){
                 array_push($liste4, $info);
                 array_push($liste4, $dato);
             }
