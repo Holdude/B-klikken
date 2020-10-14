@@ -90,16 +90,16 @@
             echo'
             </section>
             <section class="column">
-            <h3>'.$personListe[3].'</h3>
-            <p>'.$personListe[4].'</p>
+            <h3>'.$personListe[2].'</h3>
+            <p>'.$personListe[3].'</p>
             <form action="dog.php" type="GET">
-            <input type="text" name="sub" value="'.$personListe[3].'" style="display:none;">
-            <input type="text" name="navn" value="'.$personListe[4].'" style="display:none;">
+            <input type="text" name="sub" value="'.$personListe[2].'" style="display:none;">
+            <input type="text" name="navn" value="'.$personListe[3].'" style="display:none;">
             <input type="submit" value="+1">
         </form>
 
         <form action="smd.php" type="GET">
-            <input type="text" name="sub" value="'.$personListe[3].'" style="display:none;">
+            <input type="text" name="sub" value="'.$personListe[2].'" style="display:none;">
             <textarea id="1" name="1" rows="4" cols="20"></textarea><br>
             <input type="submit">
         </form>
@@ -112,16 +112,16 @@
         echo'
         </section>
         <section class="column">
-        <h3>'.$personListe[6].'</h3>
-        <p>'.$personListe[7].'</p>
+        <h3>'.$personListe[4].'</h3>
+        <p>'.$personListe[5].'</p>
         <form action="dog.php" type="GET">
-        <input type="text" name="sub" value="'.$personListe[6].'" style="display:none;">
-        <input type="text" name="navn" value="'.$personListe[7].'" style="display:none;">
+        <input type="text" name="sub" value="'.$personListe[4].'" style="display:none;">
+        <input type="text" name="navn" value="'.$personListe[5].'" style="display:none;">
         <input type="submit" value="+1">
     </form>
 
     <form action="smd.php" type="GET">
-        <input type="text" name="sub" value="'.$personListe[6].'" style="display:none;">
+        <input type="text" name="sub" value="'.$personListe[4].'" style="display:none;">
         <textarea id="1" name="1" rows="4" cols="20"></textarea><br>
         <input type="submit">
     </form>
@@ -134,16 +134,16 @@
     echo'
     </section>
     <section class="column">
-    <h3>'.$personListe[9].'</h3>
-    <p>'.$personListe[10].'</p>
+    <h3>'.$personListe[6].'</h3>
+    <p>'.$personListe[7].'</p>
     <form action="dog.php" type="GET">
-    <input type="text" name="sub" value="'.$personListe[9].'" style="display:none;">
-    <input type="text" name="navn" value="'.$personListe[10].'" style="display:none;">
+    <input type="text" name="sub" value="'.$personListe[6].'" style="display:none;">
+    <input type="text" name="navn" value="'.$personListe[7].'" style="display:none;">
     <input type="submit" value="+1">
 </form>
 
 <form action="smd.php" type="GET">
-    <input type="text" name="sub" value="'.$personListe[9].'" style="display:none;">
+    <input type="text" name="sub" value="'.$personListe[6].'" style="display:none;">
     <textarea id="1" name="1" rows="4" cols="20"></textarea><br>
     <input type="submit">
 </form>
