@@ -106,7 +106,7 @@
             <h3>Kommentar:</h3>
             ';
             foreach($liste2 as $utinfo){
-                echo "<p>".$utinfo."</p><br>";
+                echo "<p>".$utinfo."</p>";
             }
             
         echo'
@@ -128,7 +128,7 @@
         <h3>Kommentar:</h3>
         ';
         foreach($liste3 as $utinfo){
-            echo "<p>".$utinfo."</p><br>";
+            echo "<p>".$utinfo."</p>";
         }
         
     echo'
@@ -150,7 +150,7 @@
     <h3>Kommentar:</h3>
     ';
     foreach($liste4 as $utinfo){
-        echo "<p>".$utinfo."</p><br>";
+        echo "<p>".$utinfo."</p>";
     }
     
 echo'
