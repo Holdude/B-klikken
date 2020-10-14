@@ -48,14 +48,14 @@
                 array_push($liste1, $info);
                 array_push($liste1, $dato);
 
-            }else if($navn == $personListe[3]){
+            }else if($navn == $personListe[2]){
                 array_push($liste2, $info);
                 array_push($liste2, $dato);
-            }else if($navn == $personListe[5]){
+            }else if($navn == $personListe[4]){
                 array_push($liste3, $info);
                 array_push($liste3, $dato);
 
-            }else if($navn == $personListe[7]){
+            }else if($navn == $personListe[6]){
                 array_push($liste4, $info);
                 array_push($liste4, $dato);
             }

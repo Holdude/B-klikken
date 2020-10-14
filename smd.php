@@ -15,10 +15,10 @@
 
     if($stmt->rowCount()){
         echo "worsk";
-        //header("Location:index.php");
+        header("Location:index.php");
     } else {
         echo "nein";
-        //header("Location:index.php");
+        header("Location:index.php");
     }
 
 ?>
