@@ -16,7 +16,7 @@
     $liste3 = array();
     $liste4 = array();
 
-    $sql = 'SELECT Navn, Antall, Info FROM Person';
+    $sql = 'SELECT Navn, Antall FROM Person';
     $stmt = $db->prepare($sql);
     $stmt->execute();
 
@@ -25,11 +25,9 @@
 
             $navn = $row['Navn'];
             $antall = $row['Antall'];
-            $info = $row['Info'];
 
             array_push($personListe, $navn);
             array_push($personListe, $antall);
-            array_push($personListe, $info);
 
             //echo $navn. " Antall: ". $antall . " ". $info."<br>";
         }
