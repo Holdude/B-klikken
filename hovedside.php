@@ -7,7 +7,7 @@
     $liste3 = array();
     $liste4 = array();
 
-    $sql = 'SELECT Navn, Antall, Info FROM Person';
+    $sql = 'SELECT Navn, Antall FROM Person';
     $stmt = $db->prepare($sql);
     $stmt->execute();
 
@@ -16,11 +16,9 @@
 
             $navn = $row['Navn'];
             $antall = $row['Antall'];
-            $info = $row['Info'];
 
             array_push($personListe, $navn);
             array_push($personListe, $antall);
-            array_push($personListe, $info);
 
             //echo $navn. " Antall: ". $antall . " ". $info."<br>";
         }
@@ -57,15 +55,6 @@
 
 
     echo'
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>B-Klikken</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    </head>
-    <body>
         <h1 style="text-align:center">Spy</h1>
         <section =class"row">
             <section class="column">

@@ -15,10 +15,10 @@
    $stmt->execute();
 
     if($stmt->rowCount()){
-        header("Location:hovedside.php");
+        header("Location:index.php");
 
     } else {
-        header("Location:hovedside.php");
+        header("Location:index.php");
     }
 
 ?>
