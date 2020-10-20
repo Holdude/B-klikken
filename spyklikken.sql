@@ -13,6 +13,28 @@ CREATE TABLE Person (
         PRIMARY KEY (id)
 	);
     
+    CREATE TABLE Juice(
+        juiceId INT AUTO_INCREMENT,
+        juiceNavn VARCHAR(50),
+        juicePris INT,
+        juiceBilde VARCHAR(50),
+        PRIMARY KEY (juiceId)
+    )
+
+    CREATE TABLE JuiceKommentar(
+        kommentarID INT AUTO_INCREMENT,
+        navn VARCHAR(50),
+        kommentar VARCHAR(100),
+        FOREIGN KEY (navn) REFERENCES Person(navn),
+        PRIMARY KEY (kommentarID)
+    );
+
+
+
+
+
+
+
     INSERT INTO Person VALUES ("ørl", 0);
     INSERT INTO Person VALUES("sogv", 0);
     INSERT INTO Person VALUES("stin", 0 );
